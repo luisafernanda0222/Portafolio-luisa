@@ -116,3 +116,58 @@ hr{
     display: flex;
     margin-top: 4rem;
 }
+.container-progress{
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+}
+.progress{
+    width: 100%;
+    border-radius: 4rem;
+}
+.porcentaje{
+    text-align: right;
+    padding: 10px;
+    font-weight: 900;
+}
+.html{
+    background-color:#7add54;
+    border-radius: 4rem;
+    width: 70%;
+    margin-top: 2rem;
+    color:black;
+}
+.css{
+    background-color:#7add54;
+    animation: css forwards;
+    border-radius: 4rem;
+    width: 70%;
+    margin-top: 2rem;
+    color:black;
+}
+.js{
+    background-color:#7add54;
+    animation: js forwards;
+    border-radius: 4rem;
+    width: 70%;
+    margin-top: 2rem;
+    color:black;
+}
+.logo-html{
+    width: 8rem;
+    height: 7rem;
+    margin-top: 2rem;
+    margin-left: 9rem;
+}
+.logo-css{
+    width: 8rem;
+    height: 7rem;
+    margin-top: 2rem;
+    margin-left: 9rem;
+}
+.logo-js{
+    width: 8rem;
+    height: 7rem;
+    margin-top: 2rem;
+    margin-left: 9rem;
+}
