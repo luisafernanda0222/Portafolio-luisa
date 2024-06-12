@@ -2,12 +2,12 @@
     margin: 0;
 }
 .first-part{
-    width: 100%;
-    background-color:#d0f9ea;
+    width: 108%;
+    background-color:#dcfcdf;
     display: flex;
 }
 .container-information{
-    width: 50%;
+    width: 40%;
 }
 .img-photo{
     width: 8rem;
@@ -16,12 +16,15 @@
     margin-left: 1rem;
     border-radius: 2rem;
 }
-.number{
+.name{
     font-size: 1rem;
+    width: 10rem;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
 }
 .title-information{
     width: 45%;
-    font-style: italic;
+    margin-left: 1rem;
 }
 .information{
     font-size: 1rem;
@@ -29,7 +32,7 @@
 }
 .container-proyectos{
     display: flex;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 .img-logo{
     width: 6rem;
@@ -50,10 +53,10 @@ hr{
     margin-left: 2rem;
 }
 .second-part{
-    width: 70%;
+    width: 80%;
     height: 12rem;
     background-color:#5ecc3a;
-    margin: 4rem;
+    margin: 3rem;
     border-radius: 3rem;
     margin-top: 2rem;
     display: flex;
@@ -70,26 +73,26 @@ hr{
 .title1{
     margin-top: 3rem;
     margin-left: 1rem;
-    color:#fffaff;
+    color:#dcfcdf;
 }
 
 .text{
     width: 50%;
     margin-left: 2rem;
-    color: #fffaff;
+    color: #dcfcdf;
 }
 .description{
     margin-left: 1rem;
-    color: #fffaff;
+    color: #dcfcdf;
 }
 .project{
     margin-top: 2rem;
     left: 2rem;
-    color: #fffaff;
+    color: #dcfcdf;
 }
 .container-referencias{
     display: flex;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 .third-part{
     width: 70%;
@@ -114,7 +117,7 @@ hr{
 }
 .container-experiencias{
     display: flex;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 .container-progress{
     width: 400px;
@@ -134,7 +137,7 @@ hr{
     background-color:#7add54;
     border-radius: 4rem;
     width: 70%;
-    margin-top: 2rem;
+    margin-top: 1rem;
     color:black;
 }
 .css{
@@ -153,10 +156,18 @@ hr{
     margin-top: 2rem;
     color:black;
 }
+.python{
+    background-color:#7add54;
+    animation: gitHub forwards;
+    border-radius: 4rem;
+    width: 45%;
+    margin-top: 2rem;
+    color:black;
+}
 .logo-html{
     width: 8rem;
     height: 7rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 9rem;
 }
 .logo-css{
@@ -171,3 +182,40 @@ hr{
     margin-top: 2rem;
     margin-left: 9rem;
 }
+.logo-python{
+    width: 8rem;
+    height: 7rem;
+    margin-top: 2rem;
+    margin-left: 9rem;
+}
+@media screen and (min-width: 394px) and (max-width: 431px) {
+    body{
+    background-color: #fffaff;
+    }
+    .first-part{
+    height: 17rem;
+}
+}
+ @media screen and (min-width: 431px) and (max-width: 481px) {
+    body{
+    background-color:#fffaff;
+    }
+    .first-part{
+    height: 16rem;
+}
+.img-photo{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.name{
+    margin-left: 2rem;
+}
+.img-box-1{
+    margin-left: 3rem;
+}
+.second-part{
+    
+}
+}
+
+
