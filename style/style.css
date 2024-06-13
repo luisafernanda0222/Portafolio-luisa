@@ -213,9 +213,44 @@ hr{
 .img-box-1{
     margin-left: 3rem;
 }
-.second-part{
+.logo-html{
+    margin-left: 11rem;
+}
+.logo-html{
+    margin-left: 11rem;
+}
+.logo-css{
+    margin-left: 11rem;
+}
+.logo-js{
+    margin-left: 11rem;
+}
+.logo-python{
+    margin-left: 11rem;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 821px) {
+    body{
+    background-color:#ec15ec;
+    }
+.first-part{
+    height: 16rem;
+}
+.img-photo{
+    margin-left: 8rem;
+}
+.name{
+    margin-left: 7rem;
+}
+.container-proyectos{
+    margin-left: 5rem;
+}
+.title-information{
+    margin-top: 3rem;
+}
+.container-proyectos{
+    margin-top: 4rem;
     
 }
 }
-
-
