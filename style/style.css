@@ -1,3 +1,6 @@
+::-webkit-scrollbar {
+    display: none;
+}
 * {
     margin: 0;
 }
@@ -30,7 +33,7 @@
     font-size: 1rem;
     margin-top: 2rem;
 }
-.container-proyectos{
+.container-projects{
     display: flex;
     margin-top: 2rem;
 }
@@ -81,6 +84,8 @@ hr{
     margin-left: 2rem;
     color: #dcfcdf;
 }
+
+
 .description{
     margin-left: 1rem;
     color: #dcfcdf;
@@ -97,7 +102,7 @@ hr{
 .third-part{
     width: 70%;
     height: 12rem;
-    background-color:aliceblue;
+    background-color:#dcfcdf;
     margin-top: 2rem;
     margin-left: 6rem;
     width: 50%;
@@ -128,7 +133,7 @@ hr{
     width: 100%;
     border-radius: 4rem;
 }
-.porcentaje{
+.percentage{
     text-align: right;
     padding: 10px;
     font-weight: 900;
@@ -193,7 +198,7 @@ hr{
     background-color: #fffaff;
     }
     .first-part{
-    height: 17rem;
+    height: 18rem;
 }
 }
  @media screen and (min-width: 431px) and (max-width: 481px) {
@@ -232,7 +237,7 @@ hr{
 
 @media screen and (min-width: 481px) and (max-width: 821px) {
     body{
-    background-color:#ec15ec;
+    background-color:#fffaff;
     }
 .first-part{
     height: 16rem;
@@ -243,14 +248,104 @@ hr{
 .name{
     margin-left: 7rem;
 }
-.container-proyectos{
-    margin-left: 5rem;
-}
 .title-information{
     margin-top: 3rem;
 }
-.container-proyectos{
+.container-projects{
     margin-top: 4rem;
-    
+    margin-left: 14rem;
+}
+hr{
+    width: 92%;
+}
+.second-part{
+    height: 11rem;
+    width: 50%;
+    margin-left: 12rem;
+}
+.title1{
+    margin-top: 2rem;
+}
+.img-box-1{
+    margin-left: 2rem;
+}
+.container-referencias{
+    margin-left: 14rem;
+}
+.third-part{
+    width: 50%;
+}
+.separate{
+    display: flex;
+    margin-right: 8rem;
+}
+.container-experiencias{
+    margin-left: 14rem;
+    margin-top: 3rem;
+}
+.logo-html{
+    margin-left: 21rem;
+}
+.logo-css{
+    margin-left: 21rem;
+}
+.logo-js{
+    margin-left: 21rem;
+}
+.logo-python{
+    margin-left: 21rem;
 }
 }
+
+@media screen and (min-width: 821px) and (max-width: 1560px) {
+body{
+    background-color:#fffaff;
+}
+.first-part{
+    height: 17rem;
+}
+.img-photo{
+    margin-left: 19rem;
+
+}
+.name{
+    margin-left: 18rem;
+}
+.title-information{
+    margin-top: 4rem;
+    margin-right: -24rem;
+}
+.container-projects{
+    margin-top: 4rem;
+    margin-left: 37rem;
+}
+.separate1{
+    display: flex;
+    margin-left: 19rem;
+}
+.second-part{
+    width: 30%;
+}
+.img-box-1{
+    margin-left: 3rem;
+}
+.container-referencias{
+    margin-left: 37rem;
+}
+.third-part{
+    width: 30%;
+}
+.separate{
+    display: flex;
+    margin-right: 8rem;
+    margin-left: 19rem;
+}
+hr{
+    width: 95%;
+}
+.container-experiencias{
+    margin-left: 38rem;
+    margin-top: 4rem;
+}
+}
+
